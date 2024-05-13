@@ -33,7 +33,7 @@ with DAG(
     
     task3 = BashOperator(
         task_id='third_task',
-        bash_command="echo Je suis la troisième tâche, je me run après la tâche 1 et en même temps que la tâche 2"
+        bash_command="echo Je suis la 3eme tâche, je me run après la tâche 1 et en même temps que la tâche 2"
     )
 
     # exécution des tasks : méthode 1
